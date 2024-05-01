@@ -1,0 +1,79 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("https://t4.ftcdn.net/jpg/06/01/76/09/360_F_601760950_Oe4EUCKRkFXVBBQqqUpPYFjv9XflryZJ.jpg");
+    background-size:cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .todo-container {
+    max-width: 500px;
+    margin: 120px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 20px 20px 20px rgb(43, 41, 41);
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: none;
+    font-weight:900;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style:dotted ;
+
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 2%;
+    background-color: rgb(229, 25, 25);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button:hover {
+    background: linear-gradient(120deg,#45a049 ,#5b548a);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  .green{
+    background-color: #9fe6a2;
+    transition: .7s;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  
