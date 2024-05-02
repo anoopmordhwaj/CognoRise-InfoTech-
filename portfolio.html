@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/1ec7d98997.js" crossorigin="anonymous"></script>
+<body>
+    
+    <div id="header">
+     
+        <div class="container">
+            <nav>
+                
+                <img src="images/logo.jpg.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfilio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <span><p>Software Developer</p></span>
+                <h1>Hi, I'm  <span>Anoop</span>  Mordhwaj</h1>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/anoop.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtittle">About Me</h1>
+                    <p style="margin-top: 10px;">Versatile Software developer with a variety of skills who has
+                        developed web apps that are robust, complex, and user-centered
+                        .Experienced in all aspects of development lifecycle with extensive
+                        exposure to integrations, frontend and backend technologies.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Python, Django, HTML, CSS, JavaScript, Bootstrap</li>
+                                <li><span>Web scrapping</span><br>BeautifulSoup and Scrapy, HTTP protocols.</li>
+                                <li><span>Programming Skills</span><br>C, C++, Java, Javascript, R, Python.</li>
+                                <li><span>Tools</span><br>VScode, Pycharm, Github, Git,etc.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>Build some awsome Projects</span><br>• Ecommerce Website<br>• Jobportal Website <br>• Imposter web App</li>
+                                <li><span>Backend Development</span><br>Build these projects with Django framework<br>to design the backend Architecture.</li>
+                                <li><span>Frontend Development</span><br>I Used HTML, CSS and JavaScript to meet all the<br> requirment of Frontend work in my personal Projects.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>B-tech(2nd year)</span><br>Bachelor of technology(CSE) from Dronacharya college <br> of Engineering, Gurgaon.</li>
+                                <li><span>2022</span><br>Completed 12th from Jaypee Vidya Mandir University campus(CBSE).</li>
+                                <li><span>2020</span><br>Completed 10th from Jaypee Vidya Mandir University campus(CBSE).</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------------servies -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Proficient in Backed-end technologies, solid foundation in full-stack development, adept at seamlessly integrating robust back-end functionalities with intuitive front-end designs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Designing</h2>
+                <p>Front-end, Passionate about creating responsive and visually stunning  user-centric websites that elevate user experiences across devices. crafting visually stunning and that seamlessly blend creativity with functionality.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web scrapping</h2>
+                <p> I have developed robust and scalable solutions to extract valuable data from diverse websites. My expertise includes  utilizing powerful libraries to efficiently collect, parse, and store information.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------portfolio------------------------- -->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Jobportal web App</h3>
+                    <p>You may communicate with recruiters all across the world and apply too on their Job postings using this web application.
+                        It uses your skills to filter jobs.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Imposter web App</h3>
+                    <p>You can find out who is at your house while you're away with this web application. 
+                        Here, Telegram and Nmap were utilized.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Ecommerce Web App</h3>
+                    <p>This web application offers every function and displays every product
+                        that a website for an online store ought to have.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- --------------------contact column ------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtittle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>    anoopmordhwaj5750@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8273276324</p>
+                <div class="social-icons">
+
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://snapchat.com/anoop_mordhwaj/"><i class="fa-brands fa-square-snapchat"></i></a>
+                    <a href="https://github.com/anoopmordhwaj"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://twitter.com/anoopmordhwaj/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/anoopmordhwaj/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Anoop resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© anoopmordhwaj. All Rights Reserved. Designed by Anoop Mordhwaj with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    <!-- javascript to show seprate elements on click -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");      
+                 }
+        
+            for(tabcontents of tabcontent){
+                tabcontents.classList.remove("active-tab");      
+                 }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+<!-- -------------to send contact info to google sheets------ -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxA679zUzvvLWfq9vXZ_nNVetZFw1VGf9nzoNyFuLUZeT9xAuY7Uk-WoKC4Rhj-yt9R/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
