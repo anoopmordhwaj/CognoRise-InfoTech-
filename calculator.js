@@ -9,3 +9,4 @@ newbtn.style.background = "red";
 
 let body = document.getElementsByTagNameNS("body");
 body.prepend(newbtn);
+// Testing purpose only.
